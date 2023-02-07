@@ -43,8 +43,8 @@ body{
 .wrapper .sidebar ul li a{
     display: block;
     padding: 13px 30px;
-    border-bottom: 1px solid #10558d;
-    color: rgb(241, 237, 237);
+    border-bottom: 1px solid #E0CEE5;
+    color: rgb(224, 206, 229);
     font-size: 16px;
     position: relative;
 }
