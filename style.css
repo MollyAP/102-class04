@@ -36,13 +36,8 @@ body{
 }
 
 .wrapper .sidebar .profile h3{
-    color: #ffffff;
+    color: #E0CEE5;
     margin: 10px 0 5px;
-}
-
-.wrapper .sidebar .profile p{
-    color: rgb(206, 240, 253);
-    font-size: 14px;
 }
 
 .wrapper .sidebar ul li a{
