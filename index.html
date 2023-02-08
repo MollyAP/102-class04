@@ -13,7 +13,7 @@
         <div class="wrapper">
             <div class="sidebar">
                     <div class="profile">
-                        <img src="https://cdn.discordapp.com/attachments/644350253172129802/1072631091661389904/placeholder_2.png" alt="logo">
+                        <img src="https://i.imgur.com/dDh77fx.png" alt="logo">
                         <h3>Onlycats</h3>
                     </div>
                     <ul>
@@ -48,14 +48,60 @@
                     </ul>
            
                 </div>
+                <nav>
                 <div class="section">
                     <div class="top_navbar">
+                        <div class="profile">
+                            <img src="https://i.imgur.com/9SJO7lk.png" class="user-pic" onclick="toggleMenu()">
+                        
+                            <div class="sub-menu-wrap" id="subMenu">
+                                <div class="sub-menu">
+                                    <div class="user-info">
+                                        <img src="https://i.imgur.com/9SJO7lk.png">
+                                        <h2>Sasha's Page</h2>
+                                    </div>
+                                    <hr>
+
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="https://i.imgur.com/1pjL7Fo.png">
+                                        <p> Edit Profile</p>
+                                        <span>></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="https://i.imgur.com/1pjL7Fo.png">
+                                        <p> Settings</p>
+                                        <span>></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="https://i.imgur.com/1pjL7Fo.png">
+                                        <p> Help</p>
+                                        <span>></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="https://i.imgur.com/1pjL7Fo.png">
+                                        <p> Logout</p>
+                                        <span>></span>
+                                    </a>
+                                </div>
+                            </div>
+                    
                     </div>
                 </div>
                 </div> 
+            </div>
         
-        
+            </nav>
             </div>
 
-    </body>
+
+<script>
+let subMenu = document.getElementById("subMenu");
+
+function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+}
+
+</script>
+
+</body>
 </html>
