@@ -85,24 +85,32 @@ body{
     background-color: rgb(154, 93, 170);
     border-bottom: 2px solid rgb(201, 185, 206);
     height: 50px;
+    width: 1311px;
     display: flex;
     align-items: center;
     padding: 0 30px;
+    
 }
 
 .section .top_navbar .profile img{
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    right: 15;
     display: block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 1211px;
+    margin-right: 0px;
+    
     
 }
+
 .sub-menu-wrap{
-    position: absolute;
-    top: 100%;
-    right: 10%;
+    position: fixed;
+    top: 5%;
+    right: 1%;
     width: 320px;
     max-height: 0px;
     overflow: hidden;
@@ -165,7 +173,6 @@ margin-right: 15px;
 .sub-menu-link:hover p{
     font-weight: 600;
 }
-
 .wrapper {
     position: absolute;
     display: flex;
@@ -185,7 +192,7 @@ margin-right: 15px;
     right: 10px;
     width: 15px;
     cursor: pointer;
-    visibility: hidden;
+    <!-- visibility: hidden; -->
   }
 .search {
     border: 1px solid grey;
@@ -226,7 +233,7 @@ margin-right: 15px;
 #gallery img {
    width: 200px !important;
    height: 200px !important;
-   margin-bottom:1px;
+   margin-bottom:1px; /* to match column gap */
 }
 
 #gallery img:hover {
