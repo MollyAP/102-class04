@@ -165,6 +165,7 @@ margin-right: 15px;
 .sub-menu-link:hover p{
     font-weight: 600;
 }
+
 .wrapper {
     position: absolute;
     display: flex;
