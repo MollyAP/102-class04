@@ -80,7 +80,7 @@ body{
     transition: all 0.5s ease;
 }
 .wrapper .section .top_navbar{
-    background-color: #B284BE;
+    background-color: rgb(154, 93, 170);
     height: 50px;
     display: flex;
     align-items: center;
