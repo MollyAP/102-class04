@@ -192,7 +192,7 @@ margin-right: 15px;
     right: 10px;
     width: 15px;
     cursor: pointer;
-    <!-- visibility: hidden; -->
+    visibility: hidden;
   }
 .search {
     border: 1px solid grey;
@@ -209,7 +209,6 @@ margin-right: 15px;
   }
   const clearIcon = document.querySelector(".clear-icon");
   const searchBar = document.querySelector(".search");
-
   searchBar.addEventListener("keyup", () => {
     if(searchBar.value && clearIcon.style.visibility != "visible"){
       clearIcon.style.visibility = "visible";
