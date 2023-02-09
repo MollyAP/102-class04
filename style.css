@@ -223,17 +223,22 @@ margin-right: 15px;
     clearIcon.style.visibility = "hidden";
   })
 
+  .grid-container{
+    display: grid;
+    column-count:4;
+   column-gap:5px;
+  }
 #gallery {
+    
    padding:30px;
    line-height:0;
-   column-count:4;
-   column-gap:5px;
+   
 }
 
 #gallery img {
    width: 200px !important;
    height: 200px !important;
-   margin-bottom:1px; /* to match column gap */
+   margin-bottom:1px;
 }
 
 #gallery img:hover {
