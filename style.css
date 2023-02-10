@@ -81,20 +81,35 @@ body{
     margin-left: 225px;
     transition: all 0.5s ease;
 }
-.wrapper .section .top_navbar{
+/* .wrapper {
+
+}
+.section{
+
+}  */
+.top_navbar{
     background-color: rgb(154, 93, 170);
     border-bottom: 2px solid rgb(201, 185, 206);
     height: 50px;
-    width: 1311px;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 0 30px;
     
 }
 
-.section .top_navbar .profile img{
-    position: absolute;
-    top: 5%;
+/* .section {
+
+}
+
+.top_navbar {
+
+}
+.profile{
+
+}  */
+.user-pic{
+   top: 5%;
     left: 95%;
     right: 15;
     display: block;
@@ -174,7 +189,6 @@ margin-right: 15px;
     font-weight: 600;
 }
 .wrapper {
-    position: absolute;
     display: flex;
     min-width: 1150px;
     align-items: center;
