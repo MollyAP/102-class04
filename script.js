@@ -1,10 +1,10 @@
-let myname = '';
+let secondName = "Molly";
+    let myName = prompt("What is your name?");
+    while(myName !== secondName){
+        secondName = prompt(`${myName} doesnt match our record, please try again`);
+    }
+    alert(`Hello there ${secondName}`);
 
-function whodat() {
-    myname = prompt("What is your name?");
-    let name = (myname);
-    alert("Hello, " + name);
-}
 
 whodat();
 
